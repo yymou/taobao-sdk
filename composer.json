@@ -1,0 +1,25 @@
+{
+  "name": "yymou/taobao-sdk",
+  "description": "淘宝官方phpsdk 非php7",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "topsdk",
+    "taobao",
+    "topapi"
+  ],
+  "authors": [
+    {
+      "name": "yangyanlei",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Topsdk\\Topapi\\": "src/"
+    }
+  }
+}
